@@ -189,9 +189,9 @@ public class Login_To_Checkout extends Base_Driver {
 		Thread.sleep(2000);
 		
 		Actions action = new Actions(driver);
-		WebElement hoverProduct= driver.findElement(By.xpath("//img[@alt='Bristi O Meghmala']"));
+		WebElement hoverProduct= driver.findElement(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/section[2]/div[2]/div[1]/div[1]/div[1]"));
 		action.moveToElement(hoverProduct).perform();
-		WebElement addToCart= driver.findElement(By.xpath("//div[@title='বৃষ্টি ও মেঘমালা হুমায়ূন আহমেদ']//div[1]//div[2]//button[1]"));
+		WebElement addToCart= driver.findElement(By.xpath("/html[1]/body[1]/div[5]/div[1]/div[1]/div[1]/section[2]/div[2]/div[1]/div[1]/div[1]/a[1]/div[1]/div[2]/button[1]"));
 		addToCart.click();
 		Thread.sleep(3000);
 	}

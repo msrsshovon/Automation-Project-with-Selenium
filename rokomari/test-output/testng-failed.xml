@@ -6,8 +6,9 @@
       <class name="project.rokomari.Login_To_Checkout">
         <methods>
           <include name="verifyAddToCart"/>
-          <include name="end"/>
           <include name="start"/>
+          <include name="end"/>
+          <include name="verifyPagination"/>
         </methods>
       </class> <!-- project.rokomari.Login_To_Checkout -->
     </classes>
